@@ -76,7 +76,7 @@ export default function AuthPage() {
     console.log("Login successful!");
     toast("Login Success"); // Update with your desired redirect path
     fetchUserData();
-    window.location.href = "/"; // Replace '/' with the desired path
+    // window.location.href = "/";
   }
 
   const { userData } = useAuth();
@@ -127,7 +127,7 @@ export default function AuthPage() {
         console.log("Login successful!");
         toast("Login Success"); // Update with your desired redirect path
         fetchUserData();
-        window.location.href = "/"; // Replace '/' with the desired path
+        // window.location.href = "/";
         location.reload();
       } else {
         if (res.status === 422) {
@@ -176,7 +176,7 @@ export default function AuthPage() {
         console.log("Registration successful!");
         toast("Registration Success"); // Update with your desired redirect path
         fetchUserData();
-        window.location.href = "/"; // Replace '/' with the desired path
+        // window.location.href = "/";
         location.reload();
         // router.push("/"); // Redirect to the desired path after successful registration
       } else {
