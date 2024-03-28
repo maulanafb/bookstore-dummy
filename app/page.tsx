@@ -49,8 +49,8 @@ function Home() {
       <section className="min-h-svh mx-auto">
         <div className="mx-auto items-center flex flex-col py-10">
           <div>
-            <h1 className="text-title md:text-[100px]  text-[40px]">
-              Your world, in books
+            <h1 className="text-title text-[100px]">
+              Unlock Your Skill&rsquo;s
             </h1>
           </div>
           <div className="flex py-5 ">All Books</div>
