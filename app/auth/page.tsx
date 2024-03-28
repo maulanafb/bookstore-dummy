@@ -25,7 +25,7 @@ import {
 import { toast } from "sonner";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { TabsContent } from "@radix-ui/react-tabs";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { fetchUserData, useAuth } from "@/components/shared/authContext";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
@@ -64,8 +64,9 @@ const registerFormSchema = z
 
 export default function AuthPage() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const token = searchParams.get("token");
+  // const searchParams = useSearchParams();
+  // const token = searchParams.get("token");
+  const token = "token";
   if (token) {
     // Set the cookie on successful login
     Cookies.set("CC_COOKIES", token, {
