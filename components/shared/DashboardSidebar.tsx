@@ -14,10 +14,10 @@ const DashboardSidebar = ({ className }: { className?: string }) => {
         <Image src={"/account.svg"} alt="avatar" width={60} height={60} />
         <div className="flex flex-col pt-5 gap-2">
           <div className="font-semibold tracking-tighter text-[16px]">
-            {userData?.name}
+            John Doe
           </div>
           <div className="font-normal text-[#fa5d29] tracking-tighter text-[16px] ">
-            {userData?.points} Points
+            100 Points
           </div>
         </div>
       </div>
