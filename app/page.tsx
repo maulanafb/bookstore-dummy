@@ -49,7 +49,7 @@ function Home() {
       <section className="min-h-svh mx-auto">
         <div className="mx-auto items-center flex flex-col py-10">
           <div>
-            <h1 className="text-title text-[100px] max-sm:text-[80px]">
+            <h1 className="text-title md:text-[100px]  text-[40px]">
               Your world, in books
             </h1>
           </div>
