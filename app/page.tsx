@@ -49,11 +49,11 @@ function Home() {
       <section className="min-h-svh mx-auto">
         <div className="mx-auto items-center flex flex-col py-10">
           <div>
-            <h1 className="text-title text-[100px]">
-              Unlock Your Skill&rsquo;s
+            <h1 className="text-title text-[100px] max-sm:text-[80px]">
+              Your world, in books
             </h1>
           </div>
-          <div className="flex py-5 ">All Courses</div>
+          <div className="flex py-5 ">All Books</div>
           <div className="flex justify-center w-[345px] md:w-[1200px] py-2">
             <SearchInput query={query} onSearch={handleSearch} />{" "}
           </div>
