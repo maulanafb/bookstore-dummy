@@ -2,7 +2,7 @@ export const DummyBook = [
   {
     id: "1",
     title: "Course Title 1",
-    instructor: "Instructor 1",
+    writer: "writer 1",
     coverImage: "cover1.jpg",
     price: 55,
     tags: ["computer-science", "programming"],
@@ -10,7 +10,7 @@ export const DummyBook = [
   {
     id: "2",
     title: "Course Title 2",
-    instructor: "Instructor 2",
+    writer: "writer 2",
     coverImage: "cover1.jpg",
     price: 40,
     tags: ["software-engineering", "algorithms"],
@@ -18,7 +18,7 @@ export const DummyBook = [
   {
     id: "3",
     title: "Course Title 3",
-    instructor: "Instructor 3",
+    writer: "writer 3",
     coverImage: "cover1.jpg",
     price: 83,
     tags: ["web-development", "javascript"],
@@ -26,7 +26,7 @@ export const DummyBook = [
   {
     id: "4",
     title: "Course Title 4",
-    instructor: "Instructor 4",
+    writer: "writer 4",
     coverImage: "cover1.jpg",
     price: 21,
     tags: ["data-structures", "python"],
@@ -34,7 +34,7 @@ export const DummyBook = [
   {
     id: "5",
     title: "Course Title 5",
-    instructor: "Instructor 5",
+    writer: "writer 5",
     coverImage: "cover1.jpg",
     price: 8,
     tags: ["java", "object-oriented-programming"],
@@ -42,7 +42,7 @@ export const DummyBook = [
   {
     id: "6",
     title: "Course Title 6",
-    instructor: "Instructor 6",
+    writer: "writer 6",
     coverImage: "cover1.jpg",
     price: 39,
     tags: ["frontend-development", "react"],
@@ -50,7 +50,7 @@ export const DummyBook = [
   {
     id: "7",
     title: "Course Title 7",
-    instructor: "Instructor 7",
+    writer: "writer 7",
     coverImage: "cover1.jpg",
     price: 37,
     tags: ["backend-development", "nodejs"],
@@ -58,7 +58,7 @@ export const DummyBook = [
   {
     id: "8",
     title: "Course Title 8",
-    instructor: "Instructor 8",
+    writer: "writer 8",
     coverImage: "cover1.jpg",
     price: 80,
     tags: ["software-development", "git"],
@@ -66,7 +66,7 @@ export const DummyBook = [
   {
     id: "9",
     title: "Course Title 9",
-    instructor: "Instructor 9",
+    writer: "writer 9",
     coverImage: "cover1.jpg",
     price: 65,
     tags: ["database-management", "sql"],
@@ -74,7 +74,7 @@ export const DummyBook = [
   {
     id: "10",
     title: "Course Title 10",
-    instructor: "Instructor 10",
+    writer: "writer 10",
     coverImage: "cover1.jpg",
     price: 84,
     tags: ["cloud-computing", "aws"],
@@ -82,7 +82,7 @@ export const DummyBook = [
   {
     id: "11",
     title: "Course Title 11",
-    instructor: "Instructor 11",
+    writer: "writer 11",
     coverImage: "cover1.jpg",
     price: 69,
     tags: ["cybersecurity", "ethical-hacking"],
@@ -90,7 +90,7 @@ export const DummyBook = [
   {
     id: "12",
     title: "Course Title 12",
-    instructor: "Instructor 12",
+    writer: "writer 12",
     coverImage: "cover1.jpg",
     price: 97,
     tags: ["data-science", "machine-learning"],
@@ -98,7 +98,7 @@ export const DummyBook = [
   {
     id: "13",
     title: "Course Title 13",
-    instructor: "Instructor 13",
+    writer: "writer 13",
     coverImage: "cover1.jpg",
     price: 6,
     tags: ["coding-interview", "algorithm-analysis"],
@@ -106,7 +106,7 @@ export const DummyBook = [
   {
     id: "14",
     title: "Course Title 14",
-    instructor: "Instructor 14",
+    writer: "writer 14",
     coverImage: "cover1.jpg",
     price: 51,
     tags: ["software-testing", "quality-assurance"],
@@ -114,7 +114,7 @@ export const DummyBook = [
   {
     id: "15",
     title: "Course Title 15",
-    instructor: "Instructor 15",
+    writer: "writer 15",
     coverImage: "cover1.jpg",
     price: 51,
     tags: ["devops", "continuous-integration"],
@@ -122,7 +122,7 @@ export const DummyBook = [
   {
     id: "16",
     title: "Course Title 16",
-    instructor: "Instructor 16",
+    writer: "writer 16",
     coverImage: "cover1.jpg",
     price: 74,
     tags: ["full-stack-development", "mongodb"],
@@ -130,7 +130,7 @@ export const DummyBook = [
   {
     id: "17",
     title: "Course Title 17",
-    instructor: "Instructor 17",
+    writer: "writer 17",
     coverImage: "cover1.jpg",
     price: 77,
     tags: ["frontend-design", "css"],
@@ -138,7 +138,7 @@ export const DummyBook = [
   {
     id: "18",
     title: "Course Title 18",
-    instructor: "Instructor 18",
+    writer: "writer 18",
     coverImage: "cover1.jpg",
     price: 10,
     tags: ["backend-architecture", "rest-api"],
@@ -146,7 +146,7 @@ export const DummyBook = [
   {
     id: "19",
     title: "Course Title 19",
-    instructor: "Instructor 19",
+    writer: "writer 19",
     coverImage: "cover1.jpg",
     price: 49,
     tags: ["functional-programming", "haskell"],
@@ -154,7 +154,7 @@ export const DummyBook = [
   {
     id: "20",
     title: "Course Title 20",
-    instructor: "Instructor 20",
+    writer: "writer 20",
     coverImage: "cover1.jpg",
     price: 62,
     tags: ["embedded-systems", "arduino"],
@@ -162,7 +162,7 @@ export const DummyBook = [
   {
     id: "21",
     title: "Course Title 21",
-    instructor: "Instructor 21",
+    writer: "writer 21",
     coverImage: "cover1.jpg",
     price: 0,
     tags: ["mobile-development", "flutter"],
