@@ -59,7 +59,7 @@ function LoadMore({
         <BookItem book={item} key={item.id} />
       ))}
       {hasMoreData ? (
-        <section className="flex justify-center items-center w-full">
+        <section className="flex justify-center items-center w-full col-span-full">
           <div ref={ref} className="col-span-full">
             <Image
               src="./spinner.svg"
